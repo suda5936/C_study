@@ -6,7 +6,7 @@ int main()
 	int num = 1;
 	int vector = 1;
 	int x = 0, y = -1;
-	printf("배열의 크기 : ");
+	printf("enter the size : ");
 	scanf("%d", &size);
 	int** array;
 	array = (int**)malloc(sizeof(int*) * size);
